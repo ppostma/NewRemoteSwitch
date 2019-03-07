@@ -34,7 +34,7 @@ transmitter = NewRemote::Transmitter.new(address, pin, periodusec = 260, repeats
 
 The `address` parameter can be either a random number, or copied from your existing remote. You can use the `Receiver` to determine your remotes address.
 
-The `pin` parameter is the GPIO pin where the transmitter is connected to. Please note that it uses the [wiringPi pin numbering scheme] (http://wiringpi.com/pins/).
+The `pin` parameter is the GPIO pin where the transmitter is connected to. Please note that it uses the [wiringPi pin numbering scheme](http://wiringpi.com/pins/).
 
 For more details about the parameters, please read the comments in `NewRemoteTransmitter.h`.
 
@@ -59,7 +59,7 @@ require 'new_remote'
 NewRemote::Receiver.receive(pin, repeats)
 ```
 
-The `pin` parameter is the GPIO pin where the receiver is connected to. Please note that it uses the [wiringPi pin numbering scheme] (http://wiringpi.com/pins/).
+The `pin` parameter is the GPIO pin where the receiver is connected to. Please note that it uses the [wiringPi pin numbering scheme](http://wiringpi.com/pins/).
 
 The `repeats` parameter indicates the number of times the same message must be received to be valid.
 
